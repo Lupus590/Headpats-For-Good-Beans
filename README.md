@@ -16,7 +16,7 @@ This project is licensed under [Arma Public License Share Alike](LICENSE.md).
 
 Made using [ArmA-3-Mod-Template](https://github.com/Lupus590/ArmA-3-Mod-Template)
 
-Headpats For Good Beans uses TSP Animate as a dependency
+Headpats For Good Beans uses TSP Animate as a dependency and uses a modified version of their functions
 TSP Animate is licensed under whatever this is:
 > This license applies to all TSP addons unless stated otherwise.
 > ✔️ Modify this mod.
