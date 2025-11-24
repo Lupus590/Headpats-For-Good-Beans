@@ -41,3 +41,30 @@ class CfgUnitInsignia
 		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
 	};
 };
+
+class Extended_PreInit_EventHandlers
+{
+	class hfgb_functions
+	{
+		init = "[] call compileScript ['z\HFGB\addons\core\functions.sqf']";
+	};
+};
+
+class CfgVehicles
+{
+	class Man;
+	class CAManBase: Man
+	{
+        class ACE_Actions
+		{
+			class ACE_TapShoulderRight;
+			class ACE_PatHead : ACE_TapShoulderRight
+			{
+                displayName = "Pat Head";
+				selection = "head";
+				condition = "[_player, _target] call ace_interaction_fnc_canTapShoulder && tsp_cba_animate_tap";
+                statement = "[_player,objNull,-1,'head'] spawn hfgb_fnc_patHead";
+            };
+		};
+	};
+};
