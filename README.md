@@ -1,25 +1,10 @@
-# ArmA 3 Mod Template
-
-This repository provides a template for creating and organizing an ArmA 3 mod project.
-
-## About
-
-This template is designed to help you quickly start developing your own ArmA 3 mods by providing a well-organized project structure, example configuration files, and clear documentation.
-It aims to simplify setup, encourage best practices, and save time for both new and experienced modders.
-
-You are encouraged to customize any part of the template to fit your project's needs.
+# Headpats For Good Beans
+I crave headpats and this is what I'm doing to satisfy my need.
 
 ## Getting Started
-
-1. Download this repository as a zip, please don't clone it I'd rarther not have loads of repos my commits in their history. (A gotcha with GitHub's template system, `logo.paa` is in git lfs and will fail to copy to your repo so you'll have to manually do copy it.)
-2. Choose a license for your project (see `LICENSE.md`).
-3. Update `.hemtt/presets/main.html` with your modlist.
-4. Edit `.hemtt/project.toml` with your project details.
-5. Review and adjust the documentation in `meta/doc/*` to fit your workflow.
-6. Update this README to reflect your project.
+See [meta/doc/Getting_Started.md](meta/doc/Getting_Started.md)
 
 ## Requirements
-
 - [HEMTT](https://github.com/synixebrett/HEMTT) (recommended for building and packaging)
 - [ArmA 3 Tools](https://store.steampowered.com/app/233800/Arma_3_Tools/) (uploading the mod to the workshop, also used by HEMTT for advanced checking I believe)
 - [Visual Sudio Code]() (config editing)
@@ -27,6 +12,17 @@ You are encouraged to customize any part of the template to fit your project's n
   - [EditorConfig for VSCode](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) (makes maintaining a code style partly automatic)
 
 ## License
+This project is licensed under [Arma Public License Share Alike](LICENSE.md).
 
-This template is licensed under [CC0 1.0 Universal](LICENSE.md).
+Made using [ArmA-3-Mod-Template](https://github.com/Lupus590/ArmA-3-Mod-Template)
 
+Headpats For Good Beans uses TSP Animate as a dependency
+TSP Animate is licensed under whatever this is:
+> This license applies to all TSP addons unless stated otherwise.
+> ✔️ Modify this mod.
+> ✔️ Redistribute this mod in part or whole privately / within a unit.
+> ✔️ Redistribute this mod in part or whole publicly with credits linking to this page.
+> ❌ Port this mod in part or whole to games other than ArmA.
+> ❌ Use this mod for commercial purposes.
+https://github.com/TheSpeshalPlatoon
+https://github.com/TheSpeshalPlatoon/A3-Animate

@@ -1,6 +1,6 @@
-name = "ArmA-3-Mod-Template"
+name = "Headpats For Good Beans"
 author = "Lupus590"
-prefix = "template"
+prefix = "HFGB"
 mainprefix = "z"
 
 [version]
@@ -15,7 +15,7 @@ include = [
 ]
 
 [hemtt.release]
-folder = "ArmA-3-Mod-Template"
+folder = "Headpats For Good Beans"
 
 [hemtt.launch.default]
 presets = [

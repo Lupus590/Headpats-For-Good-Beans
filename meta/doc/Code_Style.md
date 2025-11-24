@@ -1,4 +1,6 @@
 # Code Style
+**Keeping this here unedited from the template for now, might see how I evolve things naturally again. Also thinking of trying to learn Bohemia's conventions and adopting those.**
+
 This is the code style that I like to use in my projects, feel free to adapt it to your preferences.
 
 ## Class Names
@@ -45,4 +47,3 @@ Paths inside of the PBO are to be lowercase; the config should also use lowercas
 
 ### Texture File / .paa Names
 Texture file names should be lowercase with words separated by underscores `_`, and should not have information that can be gleaned from the folder structure.
-
