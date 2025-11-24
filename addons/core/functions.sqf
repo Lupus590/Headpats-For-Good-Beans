@@ -2,7 +2,7 @@
 hfgb_fnc_patHead = {
     params ["_unit", ["_target", objNull]];
     _targets = [_unit, eyePos _unit, [0,15,30,45,60,-15,-30,-45,-60], 3, getCameraViewDirection _unit] call tsp_fnc_obstruction select {alive (_x#0) && _x#0 isKindOf "CAManBase"};
-    if (_target isEqualTo objNull && count _targets isNotEqualTo []) then {_target = _targets#0#0};
+    if (_target isEqualTo objNull && _targets isNotEqualTo []) then {_target = _targets#0#0};
     if (_target isEqualTo objNull || "leg" in gestureState _unit || "shoulder" in gestureState _unit) exitWith {};
     [_unit, "", "tsp_animate_shoulder_wnon_laut", "", "tsp" in gestureState _unit, true, true] spawn tsp_fnc_gesture_play;
     [[name _unit, "Patted your head"], tsp_fnc_hint] remoteExec ["call", _target];
