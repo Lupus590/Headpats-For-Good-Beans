@@ -7,5 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## 1.1.0
+- Move the interact to be under the ACE head interact
+
 ## 1.0.0
 - I crave headpats!
