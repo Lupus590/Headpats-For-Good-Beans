@@ -19,10 +19,17 @@ Made using [ArmA-3-Mod-Template](https://github.com/Lupus590/ArmA-3-Mod-Template
 Headpats For Good Beans uses TSP Animate as a dependency and uses a modified version of their functions
 TSP Animate is licensed under whatever this is:
 > This license applies to all TSP addons unless stated otherwise.
+> 
 > ✔️ Modify this mod.
+> 
 > ✔️ Redistribute this mod in part or whole privately / within a unit.
+> 
 > ✔️ Redistribute this mod in part or whole publicly with credits linking to this page.
+> 
 > ❌ Port this mod in part or whole to games other than ArmA.
+> 
 > ❌ Use this mod for commercial purposes.
+
 https://github.com/TheSpeshalPlatoon
 https://github.com/TheSpeshalPlatoon/A3-Animate
+
