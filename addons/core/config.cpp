@@ -65,7 +65,7 @@ class CfgVehicles
 					displayName = "Pat Head";
 					selection = "";
 					condition = "[_player, _target] call ace_interaction_fnc_canTapShoulder && tsp_cba_animate_tap";
-					statement = "[_player,objNull,-1,'head'] spawn hfgb_fnc_patHead";
+					statement = "[_player,_target] spawn hfgb_fnc_patHead";
 				};
 			};
 		};
