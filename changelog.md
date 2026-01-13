@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 ## 1.1.2
-- Fix the insignia being broken, also new version looks better, I used the magic want to help remove the background
+- Fix the insignia being broken, also new version looks better, I used the magic wand to help remove the background
 
 ## 1.1.1
 - Hopefully reduce the mod not working randomly for some people
@@ -17,3 +17,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## 1.0.0
 - I crave headpats!
+
