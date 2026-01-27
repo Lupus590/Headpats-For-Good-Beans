@@ -67,7 +67,30 @@ class CfgVehicles
 					condition = "[_player, _target] call ace_interaction_fnc_canTapShoulder && tsp_cba_animate_tap";
 					statement = "[_player,_target] spawn hfgb_fnc_patHead";
 				};
+				class ACE_BonkHead : ACE_PatHead
+				{
+					displayName = "Bonk Head";
+					selection = "";
+					condition = "hfgb_bonk_enable && [_player, _target] call ace_interaction_fnc_canTapShoulder && tsp_cba_animate_tap";
+					statement = "[_player,_target] spawn hfgb_fnc_bonkHead";
+				};
 			};
 		};
+	};
+};
+
+class CfgSounds
+{
+	class hfgb_bonk
+	{
+		name = "Bonk Sound";
+		sound[] = { "HFGB_Core\bonk.ogg", 1, 1, 100 };	// file, volume, pitch, maxDistance
+		titles[] = { 0, "*bonk*" };
+
+		titlesFont = "LCD14";
+		titlesSize = 0.1;
+
+		forceTitles = 0;			// display titles even if global show titles option is off (1) or not (0)
+		titlesStructured = 1;		// treat titles as Structured Text (1) or not (0)
 	};
 };
