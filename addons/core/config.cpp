@@ -55,7 +55,7 @@ class CfgVehicles
 	class Man;
 	class CAManBase: Man
 	{
-        class ACE_Actions
+	class ACE_Actions
 		{
 			class ACE_TapShoulderRight;
 			class ACE_Head
