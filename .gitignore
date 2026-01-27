@@ -7,6 +7,5 @@ hemtt.exe
 releases/
 
 .vscode
-build-config.json
-build/
 meta/tools/hemtt/
+
