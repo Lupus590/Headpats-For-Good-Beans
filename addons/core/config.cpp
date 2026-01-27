@@ -84,7 +84,7 @@ class CfgSounds
 	class hfgb_bonk
 	{
 		name = "Bonk Sound";
-		sound[] = { "HFGB_Core\bonk.ogg", 1, 1, 100 };	// file, volume, pitch, maxDistance
+		sound[] = { "\HFGB_Core\bonk.ogg", 5, 1, 100 };	// file, volume, pitch, maxDistance
 		titles[] = { 0, "*bonk*" };
 
 		titlesFont = "LCD14";
