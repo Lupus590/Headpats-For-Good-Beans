@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 - Add keybind for patting head
+- Restructured the mod a bit
 
 ## 1.1.2
 - Fix the insignia being broken, also new version looks better, I used the magic wand to help remove the background
