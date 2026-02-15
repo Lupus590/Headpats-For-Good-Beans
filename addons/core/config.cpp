@@ -11,7 +11,7 @@ class CfgPatches
 		requiredAddons[] =
 		{
 			"CBA_Main",
-			"tsp_animate_ace",
+			"tsp_animate",
 		};
 		VERSION_CONFIG;
 	};
@@ -39,24 +39,3 @@ class Extended_PreInit_EventHandlers
 	};
 };
 
-class CfgVehicles
-{
-	class Man;
-	class CAManBase: Man
-	{
-	class ACE_Actions
-		{
-			class ACE_TapShoulderRight;
-			class ACE_Head
-			{
-				class ACE_PatHead : ACE_TapShoulderRight
-				{
-					displayName = "Pat Head";
-					selection = "";
-					condition = "[_player, _target] call ace_interaction_fnc_canTapShoulder && tsp_cba_animate_tap";
-					statement = "[_player,_target] spawn hfgb_fnc_patHead";
-				};
-			};
-		};
-	};
-};
