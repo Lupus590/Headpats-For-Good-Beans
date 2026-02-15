@@ -31,17 +31,6 @@ class CfgSettings
 	};
 };
 
-class CfgUnitInsignia
-{
-	class HFGB_Patch
-	{
-		displayName = "Headpats For Good Beans Unit Patch";
-		author = "Lupus590";
-		texture = "\z\HFGB\addons\core\HFGB_patch.paa";
-		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
-	};
-};
-
 class Extended_PreInit_EventHandlers
 {
 	class hfgb_functions
