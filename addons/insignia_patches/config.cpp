@@ -9,6 +9,7 @@ class CfgPatches
 		requiredAddons[] =
 		{
 			"HFGB_Core",
+			"A3_Ui_F",
 		};
 	};
 };
