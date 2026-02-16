@@ -38,4 +38,3 @@ class Extended_PreInit_EventHandlers
 		init = "[] call compileScript ['z\HFGB\addons\core\functions.sqf']";
 	};
 };
-
