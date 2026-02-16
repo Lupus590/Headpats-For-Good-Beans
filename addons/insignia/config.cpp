@@ -1,8 +1,8 @@
 class CfgPatches
 {
-	class HFGB_Insignia_Patches
+	class HFGB_Insignia
 	{
-		name = "Headpats For Good Beans - Insignia Patches";
+		name = "Headpats For Good Beans - Insignia";
 		author = "Lupus590";
 		units[] = {};
 		weapons[] = {};
@@ -20,7 +20,7 @@ class CfgUnitInsignia
 	{
 		displayName = "Headpats For Good Beans Unit Patch";
 		author = "Lupus590";
-		texture = "\z\HFGB\addons\insignia_patches\HFGB_patch.paa";
+		texture = "\z\HFGB\addons\insignia\HFGB_patch.paa";
 		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
 	};
 };

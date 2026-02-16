@@ -9,6 +9,7 @@ class CfgPatches
 		requiredAddons[] =
 		{
 			"HFGB_Core",
+			"HFGB_Insignia",
 			"tsp_animate_ace",
 			"ace_interaction",
 		};
