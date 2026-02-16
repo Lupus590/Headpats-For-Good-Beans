@@ -14,7 +14,6 @@ class CfgPatches
 	};
 };
 
-
 class CfgUnitInsignia
 {
 	class HFGB_Patch

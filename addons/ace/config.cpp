@@ -16,8 +16,6 @@ class CfgPatches
 	};
 };
 
-
-
 class CfgVehicles
 {
 	class Man;
