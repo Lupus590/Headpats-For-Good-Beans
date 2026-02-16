@@ -12,6 +12,7 @@ class CfgPatches
 			"tsp_animate_ace",
 			"ace_interaction",
 		};
+        skipWhenMissingDependencies = 1;
 	};
 };
 
