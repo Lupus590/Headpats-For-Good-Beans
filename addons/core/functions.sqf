@@ -5,7 +5,6 @@
 ["Headpats For Good Beans", "hfgb__keybind_patHead", "Pat Head", {if (tsp_cba_animate_tap) then {[playa,objNull] spawn hfgb_fnc_patHead}}, {}, [0, [false, false, false]]] call CBA_fnc_addKeybind;
 ["Headpats For Good Beans", "hfgb__keybind_bonkHead", "Bonk Head", {if (hfgb_bonk_enable && tsp_cba_animate_tap) then {[playa,objNull] spawn hfgb_fnc_bonkHead}}, {}, [0, [false, false, false]]] call CBA_fnc_addKeybind;
 
-
 // copy edit of tsp_fnc_animate_tap from https://github.com/TheSpeshalPlatoon/A3-Animate/blob/5347df999b60c51e7ad556f092345ef745e43edf/tsp_animate/functions.sqf#L164
 hfgb_fnc_patHead = {
     params ["_unit", "_target"];
@@ -30,7 +29,7 @@ hfgb_fnc_bonkHead = {
     sleep 0.3; 
     //playSound3D [_sound, _unit, true, getPosASL _unit, _volume*tsp_cba_animate_sound, 1, _distance];
     //[_target, 5, "A3\Sounds_F\characters\footsteps\int_carpet\carpet_int_sprint_HPF_"+str(round random 8 max 1)+".wss", 1] call tsp_fnc_animate_effect;
-    [_target, 5, "\HFGB_Core\bonk.ogg", 1] call tsp_fnc_animate_effect;
+    [_target, 5, "\HFGB_Core\battleambience.ogg", 1] call tsp_fnc_animate_effect;
     //playSound3D ["\HFGB_Core\bonk.ogg", _unit, false, [0,0,0], 5];
     //playSound3D ["hfgb_bonk", _unit, false, [0,0,0], 5];
 };
