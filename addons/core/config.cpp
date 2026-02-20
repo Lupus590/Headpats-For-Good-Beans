@@ -11,7 +11,7 @@ class CfgPatches
 		requiredAddons[] =
 		{
 			"CBA_Main",
-			"tsp_animate_ace",
+			"tsp_animate",
 		};
 		VERSION_CONFIG;
 	};
@@ -31,51 +31,11 @@ class CfgSettings
 	};
 };
 
-class CfgUnitInsignia
-{
-	class HFGB_Patch
-	{
-		displayName = "Headpats For Good Beans Unit Patch";
-		author = "Lupus590";
-		texture = "\z\HFGB\addons\core\HFGB_patch.paa";
-		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
-	};
-};
-
 class Extended_PreInit_EventHandlers
 {
 	class hfgb_functions
 	{
 		init = "[] call compileScript ['z\HFGB\addons\core\functions.sqf']";
-	};
-};
-
-class CfgVehicles
-{
-	class Man;
-	class CAManBase: Man
-	{
-	class ACE_Actions
-		{
-			class ACE_TapShoulderRight;
-			class ACE_Head
-			{
-				class ACE_PatHead : ACE_TapShoulderRight
-				{
-					displayName = "Pat Head";
-					selection = "";
-					condition = "[_player, _target] call ace_interaction_fnc_canTapShoulder && tsp_cba_animate_tap";
-					statement = "[_player,_target] spawn hfgb_fnc_patHead";
-				};
-				class ACE_BonkHead : ACE_PatHead
-				{
-					displayName = "Bonk Head";
-					selection = "";
-					condition = "hfgb_bonk_enable && [_player, _target] call ace_interaction_fnc_canTapShoulder && tsp_cba_animate_tap";
-					statement = "[_player,_target] spawn hfgb_fnc_bonkHead";
-				};
-			};
-		};
 	};
 };
 

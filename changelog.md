@@ -6,7 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## Unreleased
+
+## 1.2.0
 - Add keybind for patting head
+- Restructured the mod a bit
+- Removed hard dependency on ace, now is optional
 
 ## 1.1.2
 - Fix the insignia being broken, also new version looks better, I used the magic wand to help remove the background
