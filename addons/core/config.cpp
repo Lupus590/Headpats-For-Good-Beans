@@ -38,19 +38,3 @@ class Extended_PreInit_EventHandlers
 		init = "[] call compileScript ['z\HFGB\addons\core\functions.sqf']";
 	};
 };
-
-class CfgSounds
-{
-	class hfgb_bonk
-	{
-		name = "Bonk Sound";
-		sound[] = { "\HFGB_Core\bonk.ogg", 5, 1, 100 };	// file, volume, pitch, maxDistance
-		titles[] = { 0, "*bonk*" };
-
-		titlesFont = "LCD14";
-		titlesSize = 0.1;
-
-		forceTitles = 0;			// display titles even if global show titles option is off (1) or not (0)
-		titlesStructured = 1;		// treat titles as Structured Text (1) or not (0)
-	};
-};

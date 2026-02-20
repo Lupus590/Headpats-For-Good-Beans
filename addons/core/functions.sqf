@@ -27,9 +27,5 @@ hfgb_fnc_bonkHead = {
     [[name _unit, "Bonked your head"], tsp_fnc_hint] remoteExec ["call", _target];
     [_unit, 5, "", 0] call tsp_fnc_animate_effect;
     sleep 0.3; 
-    //playSound3D [_sound, _unit, true, getPosASL _unit, _volume*tsp_cba_animate_sound, 1, _distance];
-    //[_target, 5, "A3\Sounds_F\characters\footsteps\int_carpet\carpet_int_sprint_HPF_"+str(round random 8 max 1)+".wss", 1] call tsp_fnc_animate_effect;
-    [_target, 5, "\HFGB_Core\battleambience.ogg", 1] call tsp_fnc_animate_effect;
-    //playSound3D ["\HFGB_Core\bonk.ogg", _unit, false, [0,0,0], 5];
-    //playSound3D ["hfgb_bonk", _unit, false, [0,0,0], 5];
+    [_target, 5, "z\HFGB\addons\core\bonk.ogg", 5] call tsp_fnc_animate_effect;
 };

@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## 1.3.0
+- Bonk
+
 ## 1.2.0
 - Add keybind for patting head
 - Restructured the mod a bit
