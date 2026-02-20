@@ -1,6 +1,6 @@
 ["hfgb_bonk_enable", "CHECKBOX", ["Head Bonking", "Enable/Disable head bonking."], "Headpats For Good Beans", false] call CBA_fnc_addSetting;
 ["hfgb_sound_bonk_enable", "CHECKBOX", ["Play Sound When Bonking", "Enable/Disable sound for head bonking."], "Headpats For Good Beans", false] call CBA_fnc_addSetting;
-["hfgb_sound_bonk_volume", "SLIDER", ["Bonk Sound Volume", "Sound effect volume for head bonking. (The volume is also affected but TSP Animate's volume slider)"], "Headpats For Good Beans", [0, 10, 5], 2, false] call CBA_fnc_addSetting;
+["hfgb_sound_bonk_volume", "SLIDER", ["Bonk Sound Volume", "Sound effect volume for head bonking. (The volume is also affected by TSP Animate's volume slider)"], "Headpats For Good Beans", [0, 10, 5], 2, false] call CBA_fnc_addSetting;
 
 ["Headpats For Good Beans", "hfgb__keybind_patHead", "Pat Head", {if (tsp_cba_animate_tap) then {[playa,objNull] spawn hfgb_fnc_patHead}}, {}, [0, [false, false, false]]] call CBA_fnc_addKeybind;
 ["Headpats For Good Beans", "hfgb__keybind_bonkHead", "Bonk Head", {if (hfgb_bonk_enable && tsp_cba_animate_tap) then {[playa,objNull] spawn hfgb_fnc_bonkHead}}, {}, [0, [false, false, false]]] call CBA_fnc_addKeybind;
