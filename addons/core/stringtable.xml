@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="HFGB">
+    <Package name="Core">
+        <Key ID="STR_HFGB_Core_BonkHead">
+            <English>Bonk Head</English>
+            <Czech>Bonk Head</Czech>
+            <French>Bonk Head</French>
+            <Spanish>Bonk Head</Spanish>
+            <Italian>Bonk Head</Italian>
+            <Polish>Bonk Head</Polish>
+            <Portuguese>Bonk Head</Portuguese>
+            <Russian>Bonk Head</Russian>
+            <German>Bonk Head</German>
+            <Korean>Bonk Head</Korean>
+            <Japanese>Bonk Head</Japanese>
+            <Chinese>Bonk Head</Chinese>
+            <Chinesesimp>Bonk Head</Chinesesimp>
+            <Turkish>Bonk Head</Turkish>
+            <Ukrainian>Bonk Head</Ukrainian>
+        </Key>
+        <Key ID="STR_HFGB_Core_BonkSoundVolume">
+            <English>Bonk Sound Volume</English>
+            <Czech>Bonk Sound Volume</Czech>
+            <French>Bonk Sound Volume</French>
+            <Spanish>Bonk Sound Volume</Spanish>
+            <Italian>Bonk Sound Volume</Italian>
+            <Polish>Bonk Sound Volume</Polish>
+            <Portuguese>Bonk Sound Volume</Portuguese>
+            <Russian>Bonk Sound Volume</Russian>
+            <German>Bonk Sound Volume</German>
+            <Korean>Bonk Sound Volume</Korean>
+            <Japanese>Bonk Sound Volume</Japanese>
+            <Chinese>Bonk Sound Volume</Chinese>
+            <Chinesesimp>Bonk Sound Volume</Chinesesimp>
+            <Turkish>Bonk Sound Volume</Turkish>
+            <Ukrainian>Bonk Sound Volume</Ukrainian>
+        </Key>
+        <Key ID="STR_HFGB_Core_BonkedYourHead">
+            <English>Bonked your head</English>
+            <Czech>Bonked your head</Czech>
+            <French>Bonked your head</French>
+            <Spanish>Bonked your head</Spanish>
+            <Italian>Bonked your head</Italian>
+            <Polish>Bonked your head</Polish>
+            <Portuguese>Bonked your head</Portuguese>
+            <Russian>Bonked your head</Russian>
+            <German>Bonked your head</German>
+            <Korean>Bonked your head</Korean>
+            <Japanese>Bonked your head</Japanese>
+            <Chinese>Bonked your head</Chinese>
+            <Chinesesimp>Bonked your head</Chinesesimp>
+            <Turkish>Bonked your head</Turkish>
+            <Ukrainian>Bonked your head</Ukrainian>
+        </Key>
+        <Key ID="STR_HFGB_Core_EnableDisableHeadBonking">
+            <English>Enable/Disable head bonking.</English>
+            <Czech>Enable/Disable head bonking.</Czech>
+            <French>Enable/Disable head bonking.</French>
+            <Spanish>Enable/Disable head bonking.</Spanish>
+            <Italian>Enable/Disable head bonking.</Italian>
+            <Polish>Enable/Disable head bonking.</Polish>
+            <Portuguese>Enable/Disable head bonking.</Portuguese>
+            <Russian>Enable/Disable head bonking.</Russian>
+            <German>Enable/Disable head bonking.</German>
+            <Korean>Enable/Disable head bonking.</Korean>
+            <Japanese>Enable/Disable head bonking.</Japanese>
+            <Chinese>Enable/Disable head bonking.</Chinese>
+            <Chinesesimp>Enable/Disable head bonking.</Chinesesimp>
+            <Turkish>Enable/Disable head bonking.</Turkish>
+            <Ukrainian>Enable/Disable head bonking.</Ukrainian>
+        </Key>
+        <Key ID="STR_HFGB_Core_EnableDisableSoundForHeadBonking">
+            <English>Enable/Disable sound for head bonking.</English>
+            <Czech>Enable/Disable sound for head bonking.</Czech>
+            <French>Enable/Disable sound for head bonking.</French>
+            <Spanish>Enable/Disable sound for head bonking.</Spanish>
+            <Italian>Enable/Disable sound for head bonking.</Italian>
+            <Polish>Enable/Disable sound for head bonking.</Polish>
+            <Portuguese>Enable/Disable sound for head bonking.</Portuguese>
+            <Russian>Enable/Disable sound for head bonking.</Russian>
+            <German>Enable/Disable sound for head bonking.</German>
+            <Korean>Enable/Disable sound for head bonking.</Korean>
+            <Japanese>Enable/Disable sound for head bonking.</Japanese>
+            <Chinese>Enable/Disable sound for head bonking.</Chinese>
+            <Chinesesimp>Enable/Disable sound for head bonking.</Chinesesimp>
+            <Turkish>Enable/Disable sound for head bonking.</Turkish>
+            <Ukrainian>Enable/Disable sound for head bonking.</Ukrainian>
+        </Key>
+        <Key ID="STR_HFGB_Core_HeadBonking">
+            <English>Head Bonking</English>
+            <Czech>Head Bonking</Czech>
+            <French>Head Bonking</French>
+            <Spanish>Head Bonking</Spanish>
+            <Italian>Head Bonking</Italian>
+            <Polish>Head Bonking</Polish>
+            <Portuguese>Head Bonking</Portuguese>
+            <Russian>Head Bonking</Russian>
+            <German>Head Bonking</German>
+            <Korean>Head Bonking</Korean>
+            <Japanese>Head Bonking</Japanese>
+            <Chinese>Head Bonking</Chinese>
+            <Chinesesimp>Head Bonking</Chinesesimp>
+            <Turkish>Head Bonking</Turkish>
+            <Ukrainian>Head Bonking</Ukrainian>
+        </Key>
+        <Key ID="STR_HFGB_Core_PatHead">
+            <English>Pat Head</English>
+            <Czech>Pat Head</Czech>
+            <French>Pat Head</French>
+            <Spanish>Pat Head</Spanish>
+            <Italian>Pat Head</Italian>
+            <Polish>Pat Head</Polish>
+            <Portuguese>Pat Head</Portuguese>
+            <Russian>Pat Head</Russian>
+            <German>Pat Head</German>
+            <Korean>Pat Head</Korean>
+            <Japanese>Pat Head</Japanese>
+            <Chinese>Pat Head</Chinese>
+            <Chinesesimp>Pat Head</Chinesesimp>
+            <Turkish>Pat Head</Turkish>
+            <Ukrainian>Pat Head</Ukrainian>
+        </Key>
+        <Key ID="STR_HFGB_Core_PattedYourHead">
+            <English>Patted your head</English>
+            <Czech>Patted your head</Czech>
+            <French>Patted your head</French>
+            <Spanish>Patted your head</Spanish>
+            <Italian>Patted your head</Italian>
+            <Polish>Patted your head</Polish>
+            <Portuguese>Patted your head</Portuguese>
+            <Russian>Patted your head</Russian>
+            <German>Patted your head</German>
+            <Korean>Patted your head</Korean>
+            <Japanese>Patted your head</Japanese>
+            <Chinese>Patted your head</Chinese>
+            <Chinesesimp>Patted your head</Chinesesimp>
+            <Turkish>Patted your head</Turkish>
+            <Ukrainian>Patted your head</Ukrainian>
+        </Key>
+        <Key ID="STR_HFGB_Core_PlaySoundWhenBonking">
+            <English>Play Sound When Bonking</English>
+            <Czech>Play Sound When Bonking</Czech>
+            <French>Play Sound When Bonking</French>
+            <Spanish>Play Sound When Bonking</Spanish>
+            <Italian>Play Sound When Bonking</Italian>
+            <Polish>Play Sound When Bonking</Polish>
+            <Portuguese>Play Sound When Bonking</Portuguese>
+            <Russian>Play Sound When Bonking</Russian>
+            <German>Play Sound When Bonking</German>
+            <Korean>Play Sound When Bonking</Korean>
+            <Japanese>Play Sound When Bonking</Japanese>
+            <Chinese>Play Sound When Bonking</Chinese>
+            <Chinesesimp>Play Sound When Bonking</Chinesesimp>
+            <Turkish>Play Sound When Bonking</Turkish>
+            <Ukrainian>Play Sound When Bonking</Ukrainian>
+        </Key>
+        <Key ID="STR_HFGB_Core_SoundEffectVolumeForHeadBonking">
+            <English>Sound effect volume for head bonking. (The actual volume is also affected by TSP Animate's volume slider.)</English>
+            <Czech>Sound effect volume for head bonking. (The actual volume is also affected by TSP Animate's volume slider.)</Czech>
+            <French>Sound effect volume for head bonking. (The actual volume is also affected by TSP Animate's volume slider.)</French>
+            <Spanish>Sound effect volume for head bonking. (The actual volume is also affected by TSP Animate's volume slider.)</Spanish>
+            <Italian>Sound effect volume for head bonking. (The actual volume is also affected by TSP Animate's volume slider.)</Italian>
+            <Polish>Sound effect volume for head bonking. (The actual volume is also affected by TSP Animate's volume slider.)</Polish>
+            <Portuguese>Sound effect volume for head bonking. (The actual volume is also affected by TSP Animate's volume slider.)</Portuguese>
+            <Russian>Sound effect volume for head bonking. (The actual volume is also affected by TSP Animate's volume slider.)</Russian>
+            <German>Sound effect volume for head bonking. (The actual volume is also affected by TSP Animate's volume slider.)</German>
+            <Korean>Sound effect volume for head bonking. (The actual volume is also affected by TSP Animate's volume slider.)</Korean>
+            <Japanese>Sound effect volume for head bonking. (The actual volume is also affected by TSP Animate's volume slider.)</Japanese>
+            <Chinese>Sound effect volume for head bonking. (The actual volume is also affected by TSP Animate's volume slider.)</Chinese>
+            <Chinesesimp>Sound effect volume for head bonking. (The actual volume is also affected by TSP Animate's volume slider.)</Chinesesimp>
+            <Turkish>Sound effect volume for head bonking. (The actual volume is also affected by TSP Animate's volume slider.)</Turkish>
+            <Ukrainian>Sound effect volume for head bonking. (The actual volume is also affected by TSP Animate's volume slider.)</Ukrainian>
+        </Key>
+    </Package>
+</Project>
