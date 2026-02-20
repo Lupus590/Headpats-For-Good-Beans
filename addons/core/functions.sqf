@@ -12,7 +12,7 @@ hfgb_fnc_patHead = {
     if (_target isEqualTo objNull && _targets isNotEqualTo []) then {_target = _targets#0#0};
     if (_target isEqualTo objNull || "leg" in gestureState _unit || "shoulder" in gestureState _unit) exitWith {};
     [_unit, "", "tsp_animate_shoulder_wnon_laut", "", "tsp" in gestureState _unit, true, true] spawn tsp_fnc_gesture_play;
-    [[name _unit, "STR_HFGB_Core_PattedYourHead" call BIS_fnc_localize], tsp_fnc_hint] remoteExec ["call", _target]; // TODO: receiver side translate
+    [[name _unit, "STR_HFGB_Core_PattedYourHead" call BIS_fnc_localize], tsp_fnc_hint] remoteExec ["call", _target]; // TODO: receiver side translate?
     [_unit, 5, "", 0] call tsp_fnc_animate_effect;
     sleep 0.3; 
     [_target, 5, "A3\Sounds_F\characters\footsteps\int_carpet\carpet_int_sprint_HPF_"+str(round random 8 max 1)+".wss", 1] call tsp_fnc_animate_effect;
@@ -26,7 +26,7 @@ hfgb_fnc_bonkHead = {
     if (_target isEqualTo objNull || "leg" in gestureState _unit || "shoulder" in gestureState _unit) exitWith {};
     if (!hfgb_bonk_enable) exitWith {};
     [_unit, "", "tsp_animate_shoulder_wnon_laut", "", "tsp" in gestureState _unit, true, true] spawn tsp_fnc_gesture_play;
-    [[name _unit, "STR_HFGB_Core_BonkedYourHead" call BIS_fnc_localize], tsp_fnc_hint] remoteExec ["call", _target]; // TODO: receiver side translate
+    [[name _unit, "STR_HFGB_Core_BonkedYourHead" call BIS_fnc_localize], tsp_fnc_hint] remoteExec ["call", _target]; // TODO: receiver side translate?
     [_unit, 5, "", 0] call tsp_fnc_animate_effect;
     sleep 0.3; 
     if(hfgb_sound_bonk_enable) then
