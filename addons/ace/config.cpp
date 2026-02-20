@@ -29,7 +29,7 @@ class CfgVehicles
 			{
 				class ACE_PatHead : ACE_TapShoulderRight
 				{
-					displayName = "Pat Head";
+					displayName = "$STR_HFGB_Core_PatHead";
 					selection = "";
 					condition = "[_player, _target] call ace_interaction_fnc_canTapShoulder && tsp_cba_animate_tap";
 					statement = "[_player,_target] spawn hfgb_fnc_patHead";
@@ -37,7 +37,7 @@ class CfgVehicles
 				};
 				class ACE_BonkHead : ACE_PatHead
 				{
-					displayName = "Bonk Head";
+					displayName = "$STR_HFGB_Core_BonkHead";
 					selection = "";
 					condition = "hfgb_bonk_enable && [_player, _target] call ace_interaction_fnc_canTapShoulder && tsp_cba_animate_tap";
 					statement = "[_player,_target] spawn hfgb_fnc_bonkHead";
