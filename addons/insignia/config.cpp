@@ -18,7 +18,7 @@ class CfgUnitInsignia
 {
 	class HFGB_Patch
 	{
-		displayName = "Headpats For Good Beans Unit Patch";
+		displayName = "Headpats For Good Beans Patch";
 		author = "Lupus590";
 		texture = "\z\HFGB\addons\insignia\HFGB_patch.paa";
 		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
