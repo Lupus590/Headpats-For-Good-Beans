@@ -35,6 +35,12 @@ class CfgVehicles
 					statement = "[_player,_target] spawn hfgb_fnc_patHead";
 					icon = "\z\HFGB\addons\insignia\HFGB_patch.paa";
 				};
+				class ACE_BoopNose : ACE_PatHead
+				{
+					displayName = "$STR_HFGB_Core_BoopNose";
+					selection = "";
+					statement = "[_player,_target] spawn hfgb_fnc_boopNose";
+				};
 				class ACE_BonkHead : ACE_PatHead
 				{
 					displayName = "$STR_HFGB_Core_BonkHead";

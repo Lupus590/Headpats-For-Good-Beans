@@ -52,6 +52,40 @@
             <Turkish>Bonked your head</Turkish>
             <Ukrainian>Bonked your head</Ukrainian>
         </Key>
+        <Key ID="STR_HFGB_Core_BoopNose">
+            <English>Boop Nose</English>
+            <Czech>Boop Nose</Czech>
+            <French>Boop Nose</French>
+            <Spanish>Boop Nose</Spanish>
+            <Italian>Boop Nose</Italian>
+            <Polish>Boop Nose</Polish>
+            <Portuguese>Boop Nose</Portuguese>
+            <Russian>Boop Nose</Russian>
+            <German>Boop Nose</German>
+            <Korean>Boop Nose</Korean>
+            <Japanese>Boop Nose</Japanese>
+            <Chinese>Boop Nose</Chinese>
+            <Chinesesimp>Boop Nose</Chinesesimp>
+            <Turkish>Boop Nose</Turkish>
+            <Ukrainian>Boop Nose</Ukrainian>
+        </Key>
+        <Key ID="STR_HFGB_Core_BoopedYourNose">
+            <English>Booped Your Nose</English>
+            <Czech>Booped Your Nose</Czech>
+            <French>Booped Your Nose</French>
+            <Spanish>Booped Your Nose</Spanish>
+            <Italian>Booped Your Nose</Italian>
+            <Polish>Booped Your Nose</Polish>
+            <Portuguese>Booped Your Nose</Portuguese>
+            <Russian>Booped Your Nose</Russian>
+            <German>Booped Your Nose</German>
+            <Korean>Booped Your Nose</Korean>
+            <Japanese>Booped Your Nose</Japanese>
+            <Chinese>Booped Your Nose</Chinese>
+            <Chinesesimp>Booped Your Nose</Chinesesimp>
+            <Turkish>Booped Your Nose</Turkish>
+            <Ukrainian>Booped Your Nose</Ukrainian>
+        </Key>
         <Key ID="STR_HFGB_Core_EnableDisableHeadBonking">
             <English>Enable/Disable head bonking.</English>
             <Czech>Enable/Disable head bonking.</Czech>
