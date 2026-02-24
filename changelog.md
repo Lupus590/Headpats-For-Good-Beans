@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add translation support
 - Bonk
 - Boop
+- Fix after TSP update broke things (they changed how one of their functions worked)
 
 ## 1.2.0
 - Add keybind for patting head
