@@ -38,13 +38,11 @@ class CfgVehicles
 				class ACE_BoopNose : ACE_PatHead
 				{
 					displayName = "$STR_HFGB_Core_BoopNose";
-					selection = "";
 					statement = "[_player,_target] spawn hfgb_fnc_boopNose";
 				};
 				class ACE_BonkHead : ACE_PatHead
 				{
 					displayName = "$STR_HFGB_Core_BonkHead";
-					selection = "";
 					condition = "hfgb_bonk_enable && [_player, _target] call ace_interaction_fnc_canTapShoulder && tsp_cba_animate_tap";
 					statement = "[_player,_target] spawn hfgb_fnc_bonkHead";
 				};
