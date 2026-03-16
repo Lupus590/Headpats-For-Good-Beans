@@ -1,6 +1,6 @@
 ["hfgb_bonk_enable", "CHECKBOX", ["STR_HFGB_Core_HeadBonking" call BIS_fnc_localize, "STR_HFGB_Core_EnableDisableHeadBonking" call BIS_fnc_localize], "Headpats For Good Beans", false] call CBA_fnc_addSetting;
 ["hfgb_sound_bonk_enable", "CHECKBOX", ["STR_HFGB_Core_PlaySoundWhenBonking" call BIS_fnc_localize, "STR_HFGB_Core_EnableDisableSoundForHeadBonking" call BIS_fnc_localize], "Headpats For Good Beans", false] call CBA_fnc_addSetting;
-["hfgb_sound_bonk_volume", "SLIDER", ["STR_HFGB_Core_BonkSoundVolume" call BIS_fnc_localize, "STR_HFGB_Core_SoundEffectVolumeForHeadBonking" call BIS_fnc_localize], "Headpats For Good Beans", [0, 10, 5], 2, false] call CBA_fnc_addSetting;
+["hfgb_sound_bonk_volume", "SLIDER", ["STR_HFGB_Core_BonkSoundVolume" call BIS_fnc_localize, "STR_HFGB_Core_SoundEffectVolumeForHeadBonking" call BIS_fnc_localize], "Headpats For Good Beans", [0, 10, 5, 2], false] call CBA_fnc_addSetting;
 
 ["Headpats For Good Beans", "hfgb__keybind_patHead", "STR_HFGB_Core_PatHead" call BIS_fnc_localize, {if (tsp_cba_animate_tap) then {[playa,objNull] spawn hfgb_fnc_patHead}}, {}, [0, [false, false, false]]] call CBA_fnc_addKeybind;
 ["Headpats For Good Beans", "hfgb__keybind_boopNose", "STR_HFGB_Core_BoopNose" call BIS_fnc_localize, {if (tsp_cba_animate_tap) then {[playa,objNull] spawn hfgb_fnc_boopNose}}, {}, [0, [false, false, false]]] call CBA_fnc_addKeybind;
