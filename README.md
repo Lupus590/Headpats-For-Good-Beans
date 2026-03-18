@@ -1,6 +1,8 @@
 # Headpats For Good Beans
 I crave headpats and this is what I'm doing to satisfy my need.
 
+This project is on [GitHub](https://github.com/Lupus590/Headpats-For-Good-Beans).
+
 ## Getting Started
 See [meta/doc/Getting_Started.md](meta/doc/Getting_Started.md)
 
