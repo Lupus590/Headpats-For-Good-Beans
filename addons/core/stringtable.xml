@@ -18,6 +18,23 @@
             <Turkish>Bonk Head</Turkish>
             <Ukrainian>Bonk Head</Ukrainian>
         </Key>
+        <Key ID="STR_HFGB_Core_BonkHeadSelf">
+            <English>Bonk yourself.</English>
+            <Czech>Bonk yourself.</Czech>
+            <French>Bonk yourself.</French>
+            <Spanish>Bonk yourself.</Spanish>
+            <Italian>Bonk yourself.</Italian>
+            <Polish>Bonk yourself.</Polish>
+            <Portuguese>Bonk yourself.</Portuguese>
+            <Russian>Bonk yourself.</Russian>
+            <German>Bonk yourself.</German>
+            <Korean>Bonk yourself.</Korean>
+            <Japanese>Bonk yourself.</Japanese>
+            <Chinese>Bonk yourself.</Chinese>
+            <Chinesesimp>Bonk yourself.</Chinesesimp>
+            <Turkish>Bonk yourself.</Turkish>
+            <Ukrainian>Bonk yourself.</Ukrainian>
+        </Key>
         <Key ID="STR_HFGB_Core_BonkSoundVolume">
             <English>Bonk Sound Volume</English>
             <Czech>Bonk Sound Volume</Czech>
@@ -204,6 +221,23 @@
             <Chinesesimp>Sound effect volume for head bonking. (The actual volume is also affected by TSP Animate's volume slider.)</Chinesesimp>
             <Turkish>Sound effect volume for head bonking. (The actual volume is also affected by TSP Animate's volume slider.)</Turkish>
             <Ukrainian>Sound effect volume for head bonking. (The actual volume is also affected by TSP Animate's volume slider.)</Ukrainian>
+        </Key>
+        <Key ID="STR_HFGB_Core_YouBonkedYourHead">
+            <English>You bonked your own head.</English>
+            <Czech>You bonked your own head.</Czech>
+            <French>You bonked your own head.</French>
+            <Spanish>SYou bonked your own head.</Spanish>
+            <Italian>SYou bonked your own head.</Italian>
+            <Polish>SYou bonked your own head.</Polish>
+            <Portuguese>SYou bonked your own head.</Portuguese>
+            <Russian>SYou bonked your own head.</Russian>
+            <German>SYou bonked your own head.</German>
+            <Korean>SYou bonked your own head.</Korean>
+            <Japanese>SYou bonked your own head.</Japanese>
+            <Chinese>SYou bonked your own head.</Chinese>
+            <Chinesesimp>SYou bonked your own head.</Chinesesimp>
+            <Turkish>SYou bonked your own head.</Turkish>
+            <Ukrainian>SYou bonked your own head.</Ukrainian>
         </Key>
     </Package>
 </Project>

@@ -22,7 +22,15 @@ class CfgVehicles
 	class Man;
 	class CAManBase: Man
 	{
-	class ACE_Actions
+		class ACE_SelfActions {
+			class ACE_BonkHeadSelf
+			{
+				displayName = "$STR_HFGB_Core_BonkHeadSelf";
+				condition = "hfgb_bonk_enable && [_player, _player] call ace_interaction_fnc_canTapShoulder && tsp_cba_animate_tap";
+				statement = "[_player] spawn hfgb_fnc_bonkHeadSelf";
+			};
+        };
+		class ACE_Actions
 		{
 			class ACE_TapShoulderRight;
 			class ACE_Head
