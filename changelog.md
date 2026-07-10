@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 - add self bonking
+- rework insignia patch a little
 
 ## 1.3.1
 - Fix volume CBA setting (Alien314)
