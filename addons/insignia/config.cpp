@@ -1,3 +1,5 @@
+#include "\z\HFGB\addons\core\define.hpp"
+
 class CfgPatches
 {
 	class HFGB_Insignia
@@ -6,11 +8,15 @@ class CfgPatches
 		author = "Lupus590";
 		units[] = {};
 		weapons[] = {};
+		magazines[] = {};
+		ammo[] = {};
 		requiredAddons[] =
 		{
 			"HFGB_Core",
 			"A3_Ui_F",
 		};
+		skipWhenMissingDependencies = FALSE;
+		skipWhenAnyAddonPresent[] = {};
 	};
 };
 

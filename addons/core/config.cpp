@@ -1,4 +1,4 @@
-#include "script_version.hpp"
+#include "define.hpp"
 
 class CfgPatches
 {
@@ -8,11 +8,15 @@ class CfgPatches
 		author = "Lupus590";
 		units[] = {};
 		weapons[] = {};
+		magazines[] = {};
+		ammo[] = {};
 		requiredAddons[] =
 		{
 			"CBA_Main",
 			"tsp_animate",
 		};
+		skipWhenMissingDependencies = FALSE;
+		skipWhenAnyAddonPresent[] = {};
 		VERSION_CONFIG;
 	};
 };

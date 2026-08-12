@@ -1,3 +1,5 @@
+#include "\z\HFGB\addons\core\define.hpp"
+
 class CfgPatches
 {
 	class HFGB_ACE
@@ -6,6 +8,8 @@ class CfgPatches
 		author = "Lupus590";
 		units[] = {};
 		weapons[] = {};
+		magazines[] = {};
+		ammo[] = {};
 		requiredAddons[] =
 		{
 			"HFGB_Core",
@@ -13,7 +17,8 @@ class CfgPatches
 			"tsp_animate_ace",
 			"ace_interaction",
 		};
-		skipWhenMissingDependencies = 1;
+		skipWhenMissingDependencies = TRUE;
+		skipWhenAnyAddonPresent[] = {};
 	};
 };
 
